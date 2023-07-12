@@ -14,7 +14,7 @@ for (let index in fruits);
 /* Short Circuit Evaluation */
 
 // Longhand
-let dbHost;
+var dbHost;
 if (process.env.DB_HOST) {
   dbHost = process.env.DB_HOST;
 } else {
